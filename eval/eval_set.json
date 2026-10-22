@@ -1,0 +1,98 @@
+[
+  {
+    "question": "Whose 1950 paper raised the question of whether machines could think?",
+    "expected_answer_contains": ["Turing"],
+    "expected_section": "1.1 Early Foundations",
+    "answerable": true
+  },
+  {
+    "question": "What percentage of AI winters were caused by funding cuts?",
+    "expected_answer_contains": [],
+    "expected_section": null,
+    "answerable": false
+  },
+  {
+    "question": "What is the key difference between how Random Forests and Gradient Boosting combine trees?",
+    "expected_answer_contains": ["parallel", "sequential", "corrects"],
+    "expected_section": "3.2 Decision Trees and Ensembles",
+    "answerable": true
+  },
+  {
+    "question": "Why did ReLU activation help train deeper networks compared to sigmoid or tanh?",
+    "expected_answer_contains": ["vanish", "saturate"],
+    "expected_section": "4.1 The Perceptron and Multi-Layer Networks",
+    "answerable": true
+  },
+  {
+    "question": "What problem do LSTMs and GRUs solve that plain RNNs struggle with?",
+    "expected_answer_contains": ["vanishing", "exploding", "gradient"],
+    "expected_section": "4.3 Recurrent Networks and Their Limitations",
+    "answerable": true
+  },
+  {
+    "question": "Why are decoder-only models naturally suited to text generation?",
+    "expected_answer_contains": ["causal", "previous tokens", "autoregressive"],
+    "expected_section": "5.3 Encoder-Decoder and Decoder-Only Models",
+    "answerable": true
+  },
+  {
+    "question": "What are the two main limitations of large language models that RAG addresses?",
+    "expected_answer_contains": ["frozen", "hallucination"],
+    "expected_section": "7.1 Motivation",
+    "answerable": true
+  },
+  {
+    "question": "What does hybrid search combine to improve retrieval?",
+    "expected_answer_contains": ["dense", "BM25", "sparse"],
+    "expected_section": "7.3 Improving Retrieval Quality",
+    "answerable": true
+  },
+  {
+    "question": "Why should the test set be touched only once, at the very end?",
+    "expected_answer_contains": ["unbiased", "leak"],
+    "expected_section": "8.1 Train, Validation, and Test Splits",
+    "answerable": true
+  },
+  {
+    "question": "What is target leakage?",
+    "expected_answer_contains": ["proxy", "derived from the target"],
+    "expected_section": "9.3 Data Leakage",
+    "answerable": true
+  },
+  {
+    "question": "What is the difference between data drift and concept drift?",
+    "expected_answer_contains": ["statistical properties", "relationship between inputs and outputs"],
+    "expected_section": "10.2 Model and Data Drift",
+    "answerable": true
+  },
+  {
+    "question": "According to the document, why can't all fairness criteria be satisfied at once?",
+    "expected_answer_contains": ["mathematically incompatible"],
+    "expected_section": "10.3 Responsible AI Considerations",
+    "answerable": true
+  },
+  {
+    "question": "What causes gradients to shrink or grow exponentially in long sequences?",
+    "expected_answer_contains": ["vanishing", "exploding"],
+    "expected_section": "4.3 Recurrent Networks and Their Limitations",
+    "answerable": true
+  },
+  {
+    "question": "Which chapter discusses the exploration-exploitation tradeoff?",
+    "expected_answer_contains": ["reinforcement learning", "trial and error"],
+    "expected_section": "2.3 Reinforcement Learning",
+    "answerable": true
+  },
+  {
+    "question": "What is the capital of Australia?",
+    "expected_answer_contains": [],
+    "expected_section": null,
+    "answerable": false
+  },
+  {
+    "question": "According to the document, what was the GDP impact of deep learning adoption in 2015?",
+    "expected_answer_contains": [],
+    "expected_section": null,
+    "answerable": false
+  }
+]

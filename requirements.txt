@@ -1,0 +1,11 @@
+langchain
+langchain-classic
+langchain-community
+langchain-groq
+faiss-cpu
+langchain-huggingface
+sentence-transformers
+rank-bm25
+pypdf
+streamlit
+python-dotenv
