@@ -263,3 +263,4 @@ if user_input:
 
             with st.chat_message("assistant", avatar=AVATARS["assistant"]):
                 st.write("Please upload and index at least one document first.")
+

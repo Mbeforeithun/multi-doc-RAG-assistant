@@ -3,3 +3,4 @@ venv/
 __pycache__/
 faiss_index/
 data/
+indexed_files.json

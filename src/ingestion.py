@@ -44,7 +44,7 @@ def load_documents(data_dir="data", only_files=None):
             continue
         all_documents.extend(load_document(path))
 
-    return all_documents
+    return all_documents    
 
 
 def load_document(path):
