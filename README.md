@@ -6,8 +6,9 @@ Built to explore production-style RAG engineering: hybrid retrieval, cross-encod
 
 ## 🎥 Demos
 
-![App screenshot](image.png)
+Multi-Doc RAG Assistant demo
 
+A question answered across indexed documents, with page-level source citations and the retrieval strategy chosen by the router.
 ## Why this projects
 
 Most RAG tutorials stop at "chunk, embed, retrieve, generate." This project goes further:
